@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    margin: 10px;
+    transition: all 2.5s ease; /* Moved here so it applies on un-hover too */
+}
+
+h1:hover {
+    color: red;
+    transform: scale(1.5) rotate(60deg) translateY(110px);
